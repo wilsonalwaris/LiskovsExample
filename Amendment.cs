@@ -35,7 +35,7 @@
 
                 /* the above code smell is caused due to incorrect use of abstract class virutal method
                   what should have been done is the noting the implemtation to booking should have been made mandatory for all 
-                  deriving classes. An interface and a derived base class that is inherted by other interface implementing classes comes to mind*/
+                  deriving classes. A shared interface and a super base class that is inherted by other interface implementing classes comes to mind*/
             }
 
             return false;
